@@ -1,5 +1,6 @@
 require 'spec_helper'
 
+#Testing static pages titles and headers
 describe "Static pages" do
     
   subject {page}

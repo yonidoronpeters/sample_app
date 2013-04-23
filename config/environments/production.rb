@@ -27,6 +27,7 @@ SampleApp::Application.configure do
   config.assets.js_compressor  = :uglifier
   # config.assets.css_compressor = :sass
 
+  #***** This is what solved the assets precomilation problem with css *******
   # Whether to fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
 
